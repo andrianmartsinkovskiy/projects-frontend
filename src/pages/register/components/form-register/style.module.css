@@ -1,0 +1,23 @@
+.wrap {
+  @apply flex items-center justify-center w-[100vw] h-[100vh] p-4;
+}
+
+.container {
+  @apply max-w-xl bg-white-opacity w-full h-fit p-5 text-center rounded-xl
+}
+
+.title {
+  @apply text-2xl
+}
+
+.form {
+  @apply mt-5 mb-5 grid gap-y-2.5
+}
+
+.note {
+  @apply text-gray-400 text-left mt-4 pl-2
+}
+
+.note span {
+  @apply text-white cursor-pointer
+}

@@ -1,0 +1,5 @@
+.wrap {
+  min-height: calc(100vh - 60px);
+  @apply max-w-6xl mt-[60px] p-[20px] mx-auto relative;
+}
+

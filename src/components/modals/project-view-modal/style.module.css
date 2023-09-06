@@ -1,0 +1,7 @@
+.wrap {
+  @apply grid gap-y-5
+}
+
+.title {
+  @apply text-2xl;
+}

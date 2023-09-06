@@ -1,0 +1,11 @@
+.wrap {
+  @apply fixed top-0 left-0 right-0 bottom-0 bg-black-opacity flex justify-center items-center
+}
+
+.container {
+  @apply relative bg-gray-900 w-full h-fit max-w-[600px] p-[40px] rounded-xl;
+}
+
+.close {
+  @apply absolute top-5 right-5 z-40 text-2xl cursor-pointer;
+}

@@ -1,0 +1,3 @@
+.wrap {
+  @apply min-h-[150px] border-[1px] border-red-600 text-red-600 uppercase flex justify-center items-center;
+}

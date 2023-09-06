@@ -1,0 +1,31 @@
+.list {
+  @apply grid gap-y-4;
+}
+
+.item {
+  @apply bg-white-opacity p-4 rounded-xl flex justify-between cursor-pointer
+}
+
+.actions {
+   @apply opacity-0 transition-all duration-500 text-2xl flex items-center gap-x-3;
+}
+
+.edit {
+  @apply transition-all duration-500;
+}
+
+.remove {
+  @apply transition-all duration-500;
+}
+
+.edit:hover {
+  @apply text-green-600
+}
+
+.remove:hover {
+  @apply text-red-600
+}
+
+.item:hover .actions {
+  opacity: 1;
+}

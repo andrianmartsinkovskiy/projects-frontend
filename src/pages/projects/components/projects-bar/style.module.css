@@ -1,0 +1,7 @@
+.wrap {
+  @apply flex justify-between mb-8 items-center;
+}
+
+.title {
+  @apply text-2xl uppercase
+}

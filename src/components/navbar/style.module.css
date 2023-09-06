@@ -1,0 +1,27 @@
+.wrap {
+  @apply fixed top-0 left-0 w-full h-[60px] bg-white-opacity cursor-pointer px-4 flex items-center justify-between;
+}
+
+.name {
+  @apply text-blue-600 flex items-center gap-x-2 text-3xl;
+}
+
+.title {
+  @apply text-2xl;
+}
+
+.logo {
+  @apply text-3xl;
+}
+
+.bar {
+  @apply flex items-center gap-x-3;
+}
+
+.userName {
+  @apply text-sm text-gray-500;
+}
+
+.logout {
+  @apply text-3xl cursor-pointer;
+}
